@@ -3,7 +3,7 @@
 #include <ArduinoJson.h>
 #include "DHT.h"
 
-#define WIFI_NETWORK "NSA_Connection_Pool"
+#define WIFI_NETWORK "..."
 #define WIFI_PASSWORD "..."
 #define WIFI_TIMEOUT_MS 15000
 
