@@ -4,7 +4,7 @@
 #include "DHT.h"
 
 #define WIFI_NETWORK "NSA_Connection_Pool"
-#define WIFI_PASSWORD "0000000000aaaaaaaaaa123456"
+#define WIFI_PASSWORD "..."
 #define WIFI_TIMEOUT_MS 15000
 
 #define DHTPIN 26
