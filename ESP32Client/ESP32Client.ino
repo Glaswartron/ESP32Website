@@ -59,7 +59,7 @@ void loop() {
   String json;
   serializeJson(doc, json);
 
-  http.begin("http://192.168.68.101:3000/temperature");
+  http.begin("http://4.180.5.111:3000/temperature");
   http.addHeader("Content-Type", "application/json");
   http.POST(json);
 

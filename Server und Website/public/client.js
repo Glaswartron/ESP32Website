@@ -2,7 +2,7 @@ let temperatures = []
 let xs = [0]
 
 function getAndUpdateTemperature() {
-    fetch("http://192.168.68.101:3000/temperature")
+    fetch("http://4.180.5.111:3000//temperature")
         .then(res => res.json())
         .then((temperatureJson) => {
             temperatures.push(temperatureJson["temperature"]);
