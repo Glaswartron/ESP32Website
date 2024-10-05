@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static('public'));
 app.use(express.json());
 
-const port = 80;
+const port = 3000;
 
 let temperature = 0;
 
